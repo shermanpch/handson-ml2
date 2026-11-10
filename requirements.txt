@@ -11,13 +11,13 @@ scipy==1.4.1
 
 
 ##### Machine Learning packages
-scikit-learn==0.22
+scikit-learn==1.9.1
 
 # Optional: the XGBoost library is only used in chapter 7
 xgboost==1.0.2
 
 # Optional: the transformers library is only using in chapter 16
-transformers==2.8.0
+transformers==5.22.2
 
 ##### TensorFlow-related packages
 
@@ -28,7 +28,7 @@ transformers==2.8.0
 # you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
 # installation instructions.
 
-tensorflow==2.1.0
+tensorflow==2.21.0
 
 # Optional: the TF Serving API library is just needed for chapter 19.
 tensorflow-serving-api==2.1.0
@@ -61,11 +61,11 @@ tf-agents==0.3.0
 
 ##### Image manipulation
 imageio==2.6.1
-Pillow==7.0.0
+Pillow==13.0.0
 scikit-image==0.16.2
 graphviz==0.13.2
 pydot==1.4.1
-opencv-python==4.2.0.32
+opencv-python==5.0.0.93
 pyglet==1.5.0
 
 #pyvirtualdisplay # needed in chapter 16, if on a headless server
@@ -78,18 +78,18 @@ pyglet==1.5.0
 joblib==0.14.1
 
 # Easy http requests
-requests==2.23.0
+requests==2.34.2
 
 # Nice utility to diff Jupyter Notebooks.
 nbdime==2.0.0
 
 # May be useful with Pandas for complex "where" clauses (e.g., Pandas
 # tutorial).
-numexpr==2.7.1
+numexpr==2.14.2
 
 # Optional: these libraries can be useful in the classification chapter,
 # exercise 4.
-nltk==3.4.5
+nltk==3.10.4
 urlextract==0.14.0
 
 # Optional: these libraries are only used in chapter 16
@@ -97,5 +97,5 @@ spacy==2.2.4
 ftfy==5.7
 
 # Optional: tqdm displays nice progress bars, ipywidgets for tqdm's notebook support
-tqdm==4.43.0
+tqdm==4.70.1
 ipywidgets==7.5.1
